@@ -26,8 +26,13 @@ int main(int argc, char *argv[])
     printf("5+3 = %d", resultat);
     */
 
-    int resultat = 0;
+    /*int resultat = 0;
     resultat = (5 / 2);
     printf("5/2 = %d", resultat);
+    */
     // cela donne un résultat érronné
+
+    double resultat = 0;
+    resultat = 5.0 / 2.0;
+    printf("5/2= %1f", resultat);
 }
