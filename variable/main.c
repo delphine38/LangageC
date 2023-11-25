@@ -32,13 +32,26 @@ int main(int argc, char *argv[])
     */
     // cela donne un résultat érronné
 
-    double resultat = 0;
+    /*double resultat = 0;
     resultat = 5.0 / 2.0;
     printf("5/2= %1f", resultat);
     // aussi appeler MODULO de la division
+    */
 
-    int resultat = 0;
+    /*int resultat = 0;
     resultat = (1 + 1);
     printf("1+1 = %d", resultat);
+    return 0;
+    */
+
+    int resultat = 0, nombre1 = 0, nombre2 = 0;
+    printf("Entrer le nombre 1 : ");
+    scanf("%d", &nombre1);
+    printf("Entrer le nombre 2 : ");
+    scanf("%d", &nombre2);
+
+    resultat = nombre1 + nombre2;
+
+    printf("%d +%d =%d\n", nombre1, nombre2, resultat);
     return 0;
 }
