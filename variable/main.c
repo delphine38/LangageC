@@ -21,7 +21,13 @@ int main(int argc, char *argv[])
     // printf("ah ! Vous avez donc %d ans !\n\n", age);
     // return 0;
 
-    int resultat = 0;
+    /*int resultat = 0;
     resultat = 5 + 3;
     printf("5+3 = %d", resultat);
+    */
+
+    int resultat = 0;
+    resultat = (5 / 2);
+    printf("5/2 = %d", resultat);
+    // cela donne un résultat érronné
 }
