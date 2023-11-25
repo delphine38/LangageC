@@ -15,9 +15,13 @@ int main(int argc, char *argv[])
     // printf("ah desole, il ne vous reste plus que %d vies maintenant ! \n\n", nombreDeVies);
     // return 0;
 
-    int age = 0; // on initialise
-    printf("Quel age avez-vous ?");
-    scanf("%d", age); // on demande d'entrer l'�ge avec scanf
-    printf("ah ! Vous avez donc %d ans !\n\n", age);
-    return 0;
+    // int age = 0; // on initialise
+    // printf("Quel age avez-vous ?");
+    // scanf("%d", age); // on demande d'entrer l'�ge avec scanf
+    // printf("ah ! Vous avez donc %d ans !\n\n", age);
+    // return 0;
+
+    int resultat = 0;
+    resultat = 5 + 3;
+    printf("5+3 = %d", resultat);
 }
