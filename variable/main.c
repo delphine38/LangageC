@@ -35,4 +35,10 @@ int main(int argc, char *argv[])
     double resultat = 0;
     resultat = 5.0 / 2.0;
     printf("5/2= %1f", resultat);
+    // aussi appeler MODULO de la division
+
+    int resultat = 0;
+    resultat = (1 + 1);
+    printf("1+1 = %d", resultat);
+    return 0;
 }
