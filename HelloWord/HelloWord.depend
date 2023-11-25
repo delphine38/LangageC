@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1700761423 source:d:\aalangagec\helloword\main.c
+	<stdio.h>
+	<stdlib.h>
+
